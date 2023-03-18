@@ -1,7 +1,10 @@
 # MoonRay
 MoonRay is DreamWorks’ open-source, award-winning, state-of-the-art production MCRT renderer
+
 This fork adds a Dockerfile for (attempting) to build on Ubuntu 18.04, you can find it in building/Dockerfile.ubuntu.
+
 You can follow the [original Docker build instructions](https://docs.openmoonray.org/getting-started/installation/building-moonray/building-moonray-container/), replacing instances of 'Dockerfile' with 'Dockerfile.ubuntu', which will work up to the final step.
+
 Fully building openmoonray does NOT currently work. [Relevent issue](https://github.com/PolygonError/openmoonray/issues/1)
 
 ## Cloning
